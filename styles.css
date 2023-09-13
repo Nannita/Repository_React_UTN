@@ -1,0 +1,24 @@
+body {
+    margin-left: 100px;
+    background-color: #352F44;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #B9B4C7;
+}
+
+#foto_cv {
+    clip-path: circle(100px);
+}
+
+.div_class {
+    width: 30%;
+    color: #FAF0E6;
+    background-color: #5C5470;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 1%;
+}
