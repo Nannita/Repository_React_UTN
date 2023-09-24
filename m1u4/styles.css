@@ -1,11 +1,16 @@
+/*
+font-family: 'Croissant One', cursive;
+*/
 body {
     margin-left: 100px;
-    background-color: #352F44;
+    background-color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    color: #B9B4C7;
+    color: grey;
+    font-family: 'Croissant One', cursive;
+    font-size: 60px;
 }
 
 #foto_cv {
@@ -14,11 +19,23 @@ h1 {
 
 .div_class {
     width: 30%;
-    color: #FAF0E6;
-    background-color: #5C5470;
+    color: grey;
+    background-image: linear-gradient(0deg,
+            hsl(48deg 84% 81%) 0%,
+            hsl(37deg 83% 82%) 11%,
+            hsl(26deg 82% 83%) 22%,
+            hsl(14deg 83% 84%) 33%,
+            hsl(3deg 82% 85%) 44%,
+            hsl(353deg 80% 86%) 56%,
+            hsl(341deg 82% 87%) 67%,
+            hsl(330deg 80% 88%) 78%,
+            hsl(319deg 81% 89%) 89%,
+            hsl(308deg 80% 90%) 100%);
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 50px;
-    border-radius: 1%;
+    border-radius: 10px 90px 90px 10px;
 }
+
+/* A partir de aca esta lo de la tarea del modulo 2 uni 1*/
