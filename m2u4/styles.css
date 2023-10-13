@@ -1,0 +1,21 @@
+.box{
+    padding: 50px ;
+    margin: 50px;
+    color: grey;
+    box-sizing: border-box;
+}
+
+#rowForm{
+    padding: 100px 0 100px 0;
+    margin: 20px;
+    color: grey;
+}
+
+.col-8{
+    background-color: rgb(226, 224, 224);
+    padding: 20px;
+    border-radius: 1%;
+}
+
+
+
