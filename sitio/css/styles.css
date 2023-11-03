@@ -1,0 +1,337 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'DM Serif Display', serif;
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+header {
+    background-color: #232323;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #232323;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+#home {
+    background-color: #b31136;
+}
+
+#nosotros {
+    background-color: #e64c34;
+}
+
+#servicios {
+    background-color: #ff7f24;
+}
+
+#galeria {
+    background-color: #ffb41d;
+}
+
+#novedades {
+    background-color: #33a7a7;
+}
+
+#contacto {
+    background-color: #2b4b5c;
+}
+
+#home:hover {
+    background-color: #e01645;
+}
+
+#nosotros:hover {
+    background-color: #fc715b;
+}
+
+#servicios:hover {
+    background-color: #ee9352;
+}
+
+#galeria:hover {
+    background-color: #f8c96c;
+}
+
+#novedades:hover {
+    background-color: #4dc9c9;
+}
+
+#contacto:hover {
+    background-color: #477c99;
+}
+
+
+footer {
+    background-color: #e4e4e4;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.cuadro {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.atencion {
+    background-color: #e4e4e4;
+    padding: 16px;
+}
+
+.atencion .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.atencion .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+
+/*Nosotros*/
+
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #33a7a7;
+}
+
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
+
+/*Servicios*/
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio .info h4 {
+    color: #ee9352;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+}
+
+.servicio .info p {
+    font-size: 13px;
+}
+
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*Galeria*/
+section {
+    display: flex;
+    width: 100%;
+    height: 630px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+/*Contacto*/
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+    list-style: none;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 100px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background: #e4e4e4;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #33a7a7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 6.3rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #288181;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+li svg {
+    width: 30px;
+    height: 30px;
+    color: #33a7a7;
+    padding: 5px;
+}
