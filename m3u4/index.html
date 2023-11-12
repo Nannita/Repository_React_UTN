@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<body id="body">
+
+    <h2>Ejercicio 1</h2>
+    <p>Elegir un color para el fondo</p>
+
+    <div class="divCuadrados">
+        <div class="cuadrado" id="celeste" onclick="celeste()"></div>
+        <div class="cuadrado" id="negro" onclick="negro()"></div>
+        <div class="cuadrado" id="beige" onclick="beige()"></div>
+        <button class="boton" id="reset" onclick="reset()">Reset</button>
+    </div>
+    <hr>
+    <h2>Ejercicio 2</h2>
+    <div>
+        <textarea placeholder="Escriba algo aca :)" name="message" onkeyup="contarCaracteres(this);"
+            id="txt"></textarea>
+    </div>
+    <label>caracteres:</label><label id="cantidad">0</label>
+    <hr>
+    <h2>Ejercicio 3</h2>
+    <div>
+        Dado el siguiente array de alumnos utilizar los métodos de array vistos para generar un array con los alumnos
+        aprobados. Se considera aprobado todo alumno que tenga una nota mayor o igual a 7.
+        <button onclick="ejercicio3()">Ejecutar ejercicio 3</button>
+        <div id="ejer3"></div>
+
+
+
+    </div>
+    </head>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

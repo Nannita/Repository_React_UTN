@@ -1,0 +1,50 @@
+/* Ejercicio 1 */
+body{
+    font-size: 20px;
+}
+
+.boton {
+    background-color: #7e7e7e;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 40px;
+    border: rgb(125, 125, 125) ;
+    border-radius: 5px;  
+    cursor: pointer;   
+}
+
+.cuadrado {
+    width: 150px;           
+    height: 150px; 
+    margin: 20px;
+    cursor: pointer; 
+    border: #ffffff solid 3px; 
+           
+}
+
+.divCuadrados {
+    display: inline-flex;
+    align-items: center; 
+}
+
+#celeste {
+    background-color: #87cefa;
+}
+
+#negro {
+    background-color: #000000;
+}
+
+#beige {
+    background-color: #d8d8b3;
+}
+
+/* Ejercicio 2 */
+
+#txt {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 150px;
+}
+
+/*Ejercicio 3 */
