@@ -1,4 +1,4 @@
-import React from 'react';
+ import '../styles/home.css';
 
 const HomePage = (props) => {
     return (
@@ -54,19 +54,17 @@ const HomePage = (props) => {
                     <div className="atencion">
                         <span className="cita">Por cualquier consulta puede comunicarse con nosotros <a
                             href="contacto">aqui</a>.</span>
-                        <span clasName="autor">Juan Perez - antiguedades.com</span>
+                        <span className="autor">Juan Perez - antiguedades.com</span>
                     </div>
                 </div>
             </div>
             <br />
             <h4>Podes visitarnos y ver nuestros articulos, sin compromiso.</h4>
             <div className="mapouter">
-                <div className="gmap_canvas"><iframe width="820" height="284" id="gmap_canvas"
+                <div className="gmap_canvas">
+                    <iframe width="820" height="284" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=agronomia%2C+buenos+aires&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" marginheight="0" marginwidth="0"></iframe><a
-                        href="https://timenowin.net/"></a><br /><a href="https://alarmclock.cloud/"></a><br />
-
-                    <a href="https://www.embedmaps.co"></a>
+                   ></iframe>                 
                 </div>
             </div>
 

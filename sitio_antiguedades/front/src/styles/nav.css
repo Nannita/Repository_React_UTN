@@ -1,0 +1,78 @@
+/* ------Nav------ */
+
+nav {
+    background-color: #232323;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    flex-grow: 1;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #b31136;
+  }
+  
+  #nosotros {
+    background-color: #e64c34;
+  }
+  
+  #servicios {
+    background-color: #ff7f24;
+  }
+  
+  #galeria {
+    background-color: #ffb41d;
+  }
+  
+  #novedades {
+    background-color: #33a7a7;
+  }
+  
+  #contacto {
+    background-color: #2b4b5c;
+  }
+  
+  #home:hover {
+    background-color: #e01645;
+  }
+  
+  #nosotros:hover {
+    background-color: #fc715b;
+  }
+  
+  #servicios:hover {
+    background-color: #ee9352;
+  }
+  
+  #galeria:hover {
+    background-color: #f8c96c;
+  }
+  
+  #novedades:hover {
+    background-color: #4dc9c9;
+  }
+  
+  #contacto:hover {
+    background-color: #477c99;
+  }
+  
+  nav ul li a.activo {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2));
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.1) ; 
+  } 

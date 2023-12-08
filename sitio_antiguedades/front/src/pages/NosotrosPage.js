@@ -1,4 +1,4 @@
-import React from 'react';
+import '../styles/nosotros.css';
 
 const NosotrosPage = (props) => {
     return (
@@ -16,7 +16,7 @@ const NosotrosPage = (props) => {
                 <h2>Staff</h2>
                 <div className="personas">
                     <div className="persona">
-                        <img src="img/nosotros/nosotros1.jpg" alt="Persona 1"/>
+                        <img src="images/nosotros1.jpg" alt="Persona 1"/>
                             <h5>Juan Gomez</h5>
                             <h6>Gerente General</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi, saepe
@@ -24,7 +24,7 @@ const NosotrosPage = (props) => {
                                 nulla iure molestias? Voluptas, magnam quaerat.</p>
                     </div>
                     <div className="persona">
-                        <img src="img/nosotros/nosotros2.jpg" alt="Persona 2"/>
+                        <img src="images/nosotros2.jpg" alt="Persona 2"/>
                             <h5>Juan Gomez</h5>
                             <h6>Gerente General</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi, saepe
@@ -32,7 +32,7 @@ const NosotrosPage = (props) => {
                                 nulla iure molestias? Voluptas, magnam quaerat.</p>
                     </div>
                     <div className="persona">
-                        <img src="img/nosotros/nosotros3.jpg" alt="Persona 3"/>
+                        <img src="images/nosotros3.jpg" alt="Persona 3"/>
                             <h5>Juan Gomez</h5>
                             <h6>Gerente General</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi, saepe
@@ -40,7 +40,7 @@ const NosotrosPage = (props) => {
                                 nulla iure molestias? Voluptas, magnam quaerat.</p>
                     </div>
                     <div className="persona">
-                        <img src="img/nosotros/nosotros4.jpg" alt="Persona 4"/>
+                        <img src="images/nosotros4.jpg" alt="Persona 4"/>
                             <h5>Juan Gomez</h5>
                             <h6>Gerente General</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi, saepe

@@ -1,0 +1,39 @@
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+ .cuadro {
+    width: 25%;
+}
+  
+ .columnas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.atencion {
+    background-color: #e4e4e4;
+    padding: 16px;
+}
+  
+.atencion .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+  
+.atencion .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}

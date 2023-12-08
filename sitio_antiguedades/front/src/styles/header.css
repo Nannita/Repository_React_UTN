@@ -1,0 +1,16 @@
+
+header {
+    background-color: #232323;
+    padding: 16px 0;
+  }
+  
+  header h1 {
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+  }
