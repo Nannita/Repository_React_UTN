@@ -1,3 +1,4 @@
+/*Tarea Modulo 4 Unidad 3*/
 var express = require('express');
 var router = express.Router();
 
@@ -14,21 +15,15 @@ router.route('/tarea')
 });
 
 
+/*Tarea Modulo 4 Unidad 4*/
 
-
-
-
-/*router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Tarea M4U3' });
+router.get('/', function(req, res, next) {
+  res.render('indexTareaUnidad4', { 
+    titulo: 'Tarea M4U4',
+    lista: ['manzanas', 'pera', 'naranjas'],
+    activado: true,
+    cantidad: 100});
 });
-
-router.post('/',function(req, res){
-  res.send('Esto es un POST');
-});
-
-router.put('/',function(req, res){
-  res.send('Esto es un PUT');
-});*/
 
 module.exports = router;
 
