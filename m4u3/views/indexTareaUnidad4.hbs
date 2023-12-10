@@ -1,0 +1,11 @@
+<h1>{{ titulo }}</h1>
+
+<ul>
+    {{#each lista}}
+    <li> {{this}} </li>
+    {{/each}}
+</ul>
+
+{{#if activado}}
+<h3>Si estoy activo muestro {{cantidad}} </h3>
+{{/if}}
