@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
     });
 });
 
-router.get('/logout', function (req, res, next){
+router.get('/login', function (req, res, next){
     req.session.destroy();
     res.render('admin/login',{
         layout: 'admin/layout'
@@ -33,7 +33,7 @@ router.post('/', async (req, res, next) => {
                 error: true
             });
         }
-        console.log(req.body); // Registra todo el cuerpo de la solicitud para verificar los datos recibidos
+        console.log(req.body); // Registra todo el cuerpo de la solicitud para verificar los datos que recibio
         var usuario = req.body.usuario;
         var password = req.body.password;
     } catch (error) {
