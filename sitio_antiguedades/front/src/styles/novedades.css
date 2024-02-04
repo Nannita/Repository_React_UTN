@@ -1,0 +1,24 @@
+.novedades {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;   
+    gap: 32px;
+    align-items: center;
+}
+
+.novedades .info h4 {
+    color: #ee9352;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+}
+
+.novedades .info p {
+    font-size: 13px;
+}
+  
+.novedades:nth-child(even) {
+    flex-direction: row-reverse;
+}

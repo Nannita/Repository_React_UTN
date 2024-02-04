@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        
+            <h4>Editar novedad</h4>
+            <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+                <input type="hidden" value="{{novedad.id}}" name="id">
+                <div class="form-group">
+                    <label for="">Titulo</label>
+                    <input type="text" class="form-control" name="titulo" value="{{novedad.titulo}}">
+                </div>
+                <div class="form-group">
+                    <label for="">Subtitulo</label>
+                    <input type="text" class="form-control" name="subtitulo" value="{{novedad.subtitulo}}">
+                </div>
+                <div class="form-group">
+                    <label for="">Cuerpo</label>
+                    <textarea name="cuerpo" class="form-control">{{novedad.cuerpo}}</textarea>
+                </div>
+                 <div class="form-group">
+                    <p style="color: rgb(107, 106, 105);"> Solo se permite 1(una) imagen. Si sube una nueva imagen la anterior se borra de forma permanente!</p>
+                    <p>
+                      <label for="">Imagen: <input type="file" name="imagen" id="imagen"></label>  
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="img_delete" id="img_delete" value="1">Eliminar imagen actual?</label>
+                        <input type="hidden" name="img_original" value="{{novedad.img_id}}">
+                    </p>
+                    
+                </div>
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            {{#if error}}
+                <p style="color: rgb(255, 145, 0);">{{message}}</p>
+            {{/if}}
+        
+    </div>
+</div>
