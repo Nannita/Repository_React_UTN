@@ -36,10 +36,11 @@ router.get('/', async function (req, res, next) {
     });
 });
 
+/*agregar */
 
 router.get('/agregar', (req, res, next) => {
     res.render('admin/agregar', {
-        layout: '/admin/layout'        
+        layout: 'admin/layout'        
     })
 });
 

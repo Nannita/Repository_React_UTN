@@ -2,6 +2,7 @@
 header {
     background-color: #232323;
     padding: 16px 0;
+    position: relative;
   }
   
   header h1 {
@@ -14,3 +15,17 @@ header {
     position: relative;
     margin-left: 10px;
   }
+
+  header .btn {
+    position: absolute;
+    top: 10;
+    right: 0;
+    opacity: 0.5;
+    margin: 10;
+    
+  }
+
+  header .btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}

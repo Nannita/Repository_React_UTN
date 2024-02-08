@@ -12,7 +12,7 @@ const NovedadesPage = (props) => {
         const cargarNovedades = async () => {
             setLoading(true);
 
-            const response = await axios.get('http://localhost:3000/api/novedades');
+            const response = await axios.get('http://localhost:3001/api/novedades');
             setNovedades(response.data);
             setLoading(false);
         };
@@ -23,11 +23,8 @@ const NovedadesPage = (props) => {
 
     return (
         <section className="holder">
-            <h2>Catalogo: </h2>
-            <hr />
-            <p>
-            <div className="novedades">
-                
+            <h1>Catalogo </h1>
+            <p>            
                 <div className="info">
                     <p> {loading ? (
                         <p>Cargando...</p>
@@ -36,18 +33,10 @@ const NovedadesPage = (props) => {
                             title={item.titulo} subtitle={item.subtitulo}
                             imagen={item.imagen} body={item.cuerpo} />)
                     )}</p>
+                    
                 </div>
-            </div>
+            
             </p>
-            {/* <h2>Catalogo</h2>
-            {loading ? (
-                <p>Cargando...</p>
-            ) : (
-                novedades.map(item => <NovedadItem key={item.id}
-                    title={item.titulo} subtitle={item.subtitulo}
-                    imagen={item.imagen} body={item.cuerpo} />)
-            )} */}
-
         </section>
     );
 }
