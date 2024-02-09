@@ -1,7 +1,7 @@
 <div class="container" >
     <div class="row">
         
-            <h4>Agregar una nueva novedad</h4>
+            <h4>Agregar un nuevo articulo al catalogo</h4>
             <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
                 <div class="mb-3 row">
                     <input type="text" class="form-control" placeholder="Titulo" name="titulo">
@@ -18,6 +18,7 @@
                 <p style="color: rgb(107, 106, 105);"> Solo se permite 1(una) imagen</p>
 
                 <button type="submit" class="btn btn-primary">Guardar</button>
+                <a class="btn btn-secondary" href='http://localhost:3001/admin/novedades'>Atras</a>
             </form>
             {{#if error}}
                 <p style="color: rgb(255, 145, 0);">{{message}}</p>

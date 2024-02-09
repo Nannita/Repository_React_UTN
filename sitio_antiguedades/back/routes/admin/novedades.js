@@ -30,7 +30,7 @@ router.get('/', async function (req, res, next) {
     });
 
     res.render('admin/novedades', {
-        layout: 'admin/layout',
+        layout: '/admin/layout',
         usuario: req.session.nombre,
         novedades
     });
@@ -40,7 +40,7 @@ router.get('/', async function (req, res, next) {
 
 router.get('/agregar', (req, res, next) => {
     res.render('admin/agregar', {
-        layout: 'admin/layout'        
+        layout: '/admin/layout'        
     })
 });
 
@@ -62,7 +62,7 @@ router.post('/agregar', async (req, res, next) => {
             res.redirect('/admin/novedades')
         }else{
             res.render('admin/agregar', {
-            layout: 'admin/layout',
+            layout: '/admin/layout',
             error: true, 
             message: 'Todos los campos son requeridos'        
             })
@@ -70,7 +70,7 @@ router.post('/agregar', async (req, res, next) => {
     }catch(error){
         console.log(error)
         res.render('admin/agregar',{
-            layout: 'admin/layout',
+            layout: '/admin/layout',
             error: true, 
             message:'No se pudo cargar la novedad :/'
         })
@@ -99,7 +99,7 @@ router.get('/modificar/:id', async (req, res, next) => {
     var novedad = await novedadesModel.getNovedadById(id);
 
     res.render('admin/modificar', {
-        layout: 'admin/layout',
+        layout: '/admin/layout',
         novedad
     })
 });

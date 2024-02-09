@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         
-            <h4>Editar novedad</h4>
+            <h4>Editar articulo</h4>
             <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
                 <input type="hidden" value="{{novedad.id}}" name="id">
                 <div class="form-group">
@@ -29,6 +29,7 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Modificar</button>
+                <a class="btn btn-secondary" href='http://localhost:3001/admin/novedades'>Atras</a>
             </form>
             {{#if error}}
                 <p style="color: rgb(255, 145, 0);">{{message}}</p>

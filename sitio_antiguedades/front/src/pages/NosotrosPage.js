@@ -47,14 +47,7 @@ const NosotrosPage = (props) => {
                                 commodi quasi odit deleniti laborum fugit hic, praesentium laudantium adipisci, non quisquam
                                 nulla iure molestias? Voluptas, magnam quaerat.</p>
                     </div>
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros5.jpg" alt="Persona 5"/>
-                            <h5>Juan Gomez</h5>
-                            <h6>Gerente General</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi, saepe
-                                commodi quasi odit deleniti laborum fugit hic, praesentium laudantium adipisci, non quisquam
-                                nulla iure molestias? Voluptas, magnam quaerat.</p>
-                    </div>
+                    
                 </div>
             </div>
         </main>
